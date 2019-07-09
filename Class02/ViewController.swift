@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         print("我按了啥？")
         
         lbMsg.text="我要铜锣烧"
+        lbMsg.textColor=UIColor.red
     }
     override func viewDidLoad() {
         super.viewDidLoad()
