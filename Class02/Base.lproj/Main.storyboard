@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pgC-cg-quw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bon-RU-SHJ">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -214,10 +214,10 @@
             </objects>
             <point key="canvasLocation" x="3449.275362318841" y="1223.4375"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="Nq7-Qz-5rZ">
             <objects>
-                <viewController id="bon-RU-SHJ" sceneMemberID="viewController">
+                <viewController id="bon-RU-SHJ" customClass="MapViewController" customModule="Class02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hQf-fX-yOw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -239,6 +239,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Rze-Tg-ldM"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="Xso-YH-b4h" id="umf-qi-G32"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ge7-NA-Zwe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -357,6 +360,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Splash" width="800" height="1200"/>
+        <image name="Splash" width="370" height="480.5"/>
     </resources>
 </document>

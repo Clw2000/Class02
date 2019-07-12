@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		404AD9CAD985DD25EC122D28 /* Pods_Class02Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF5075CAD455A068FAB2DA7 /* Pods_Class02Tests.framework */; };
 		61FC3E153D09CDE964E7E46B /* Pods_Class02.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CF5A89214D7AB0B519E507 /* Pods_Class02.framework */; };
-		7661828822D422B200004C7C /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7661828722D422B200004C7C /* AViewController.swift */; };
+		7632361F22D846D9009003C4 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7632361E22D846D8009003C4 /* AViewController.swift */; };
 		7661828A22D422C300004C7C /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7661828922D422C300004C7C /* BViewController.swift */; };
 		768E256C22D18A81004B236E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E256B22D18A81004B236E /* AppDelegate.swift */; };
 		768E256E22D18A81004B236E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E256D22D18A81004B236E /* ViewController.swift */; };
@@ -47,7 +47,7 @@
 		52B23D92FF3C57DFF2DE7C12 /* Pods-Class02Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Class02Tests.release.xcconfig"; path = "Target Support Files/Pods-Class02Tests/Pods-Class02Tests.release.xcconfig"; sourceTree = "<group>"; };
 		55CF5A89214D7AB0B519E507 /* Pods_Class02.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Class02.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A39B29F1F427C1BD7DA68A4 /* Pods-Class02UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Class02UITests.release.xcconfig"; path = "Target Support Files/Pods-Class02UITests/Pods-Class02UITests.release.xcconfig"; sourceTree = "<group>"; };
-		7661828722D422B200004C7C /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		7632361E22D846D8009003C4 /* AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
 		7661828922D422C300004C7C /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		768E256822D18A81004B236E /* Class02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Class02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768E256B22D18A81004B236E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +155,14 @@
 				76C5952422D7371F00FF41CD /* WebFlow */,
 				76C5951F22D7371400FF41CD /* MainFlow */,
 				76C5950F22D7157B00FF41CD /* LoginFlow */,
+				768E256B22D18A81004B236E /* AppDelegate.swift */,
+				768E256D22D18A81004B236E /* ViewController.swift */,
+				768E256F22D18A81004B236E /* Main.storyboard */,
+				768E257222D18A84004B236E /* Assets.xcassets */,
+				768E257422D18A84004B236E /* LaunchScreen.storyboard */,
+				768E257722D18A84004B236E /* Info.plist */,
+				7632361E22D846D8009003C4 /* AViewController.swift */,
+				7661828922D422C300004C7C /* BViewController.swift */,
 			);
 			path = Class02;
 			sourceTree = "<group>";
@@ -180,14 +188,6 @@
 		76C5950F22D7157B00FF41CD /* LoginFlow */ = {
 			isa = PBXGroup;
 			children = (
-				768E256B22D18A81004B236E /* AppDelegate.swift */,
-				768E256D22D18A81004B236E /* ViewController.swift */,
-				768E256F22D18A81004B236E /* Main.storyboard */,
-				768E257222D18A84004B236E /* Assets.xcassets */,
-				768E257422D18A84004B236E /* LaunchScreen.storyboard */,
-				768E257722D18A84004B236E /* Info.plist */,
-				7661828722D422B200004C7C /* AViewController.swift */,
-				7661828922D422C300004C7C /* BViewController.swift */,
 				76C5951222D71E3D00FF41CD /* LoginViewController.swift */,
 			);
 			path = LoginFlow;
@@ -442,9 +442,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				76C5952922D7372800FF41CD /* MyMapViewController.swift in Sources */,
+				7632361F22D846D9009003C4 /* AViewController.swift in Sources */,
 				768E256E22D18A81004B236E /* ViewController.swift in Sources */,
 				7661828A22D422C300004C7C /* BViewController.swift in Sources */,
-				7661828822D422B200004C7C /* AViewController.swift in Sources */,
 				76C5952222D7371400FF41CD /* DetailViewController.swift in Sources */,
 				76C5951322D71E3D00FF41CD /* LoginViewController.swift in Sources */,
 				76C5952322D7371400FF41CD /* MasterViewController.swift in Sources */,
