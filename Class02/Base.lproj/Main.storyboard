@@ -122,10 +122,10 @@
             </objects>
             <point key="canvasLocation" x="1021.7391304347827" y="112.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="2Gc-5K-A9L">
             <objects>
-                <viewController id="WCv-aH-Hgo" sceneMemberID="viewController">
+                <viewController id="WCv-aH-Hgo" customClass="DetailViewController" customModule="Class02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kpc-Ia-Tm4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,11 +188,11 @@
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ki1-vB-hbh">
-                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="818" id="B4C-cI-NQm"/>
-                                    <constraint firstAttribute="width" constant="374" id="Zra-ch-yLA"/>
+                                    <constraint firstAttribute="height" constant="896" id="QPb-G8-ggV"/>
+                                    <constraint firstAttribute="width" constant="414" id="TeJ-jT-AZZ"/>
                                 </constraints>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -202,10 +202,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ki1-vB-hbh" firstAttribute="top" secondItem="JkA-zt-m14" secondAttribute="topMargin" id="UF7-b4-WYL"/>
-                            <constraint firstItem="ki1-vB-hbh" firstAttribute="trailing" secondItem="JkA-zt-m14" secondAttribute="trailingMargin" id="c1l-4H-bVF"/>
-                            <constraint firstItem="ki1-vB-hbh" firstAttribute="leading" secondItem="JkA-zt-m14" secondAttribute="leadingMargin" id="jtq-ge-1xH"/>
-                            <constraint firstItem="ki1-vB-hbh" firstAttribute="bottom" secondItem="JkA-zt-m14" secondAttribute="bottomMargin" id="pfU-r2-Zw0"/>
+                            <constraint firstItem="ki1-vB-hbh" firstAttribute="top" secondItem="JkA-zt-m14" secondAttribute="top" id="ZVg-Je-XjT"/>
+                            <constraint firstAttribute="trailing" secondItem="ki1-vB-hbh" secondAttribute="trailing" id="fWc-Zr-6ts"/>
+                            <constraint firstAttribute="bottom" secondItem="ki1-vB-hbh" secondAttribute="bottom" id="p8C-6W-WOa"/>
+                            <constraint firstItem="ki1-vB-hbh" firstAttribute="leading" secondItem="JkA-zt-m14" secondAttribute="leading" id="udh-7d-DE0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="GbN-qZ-0PH"/>
                     </view>
@@ -223,19 +223,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Xso-YH-b4h">
-                                <rect key="frame" x="20" y="44" width="374" height="818"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="374" id="QE2-l6-svI"/>
-                                    <constraint firstAttribute="height" constant="818" id="eIG-ar-cvF"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Xso-YH-b4h" firstAttribute="leading" secondItem="hQf-fX-yOw" secondAttribute="leadingMargin" id="FDM-Q3-33X"/>
-                            <constraint firstItem="Xso-YH-b4h" firstAttribute="top" secondItem="hQf-fX-yOw" secondAttribute="topMargin" id="ojU-Ky-mc2"/>
-                            <constraint firstItem="Xso-YH-b4h" firstAttribute="bottom" secondItem="hQf-fX-yOw" secondAttribute="bottomMargin" id="rsL-Q5-onx"/>
-                            <constraint firstItem="Xso-YH-b4h" firstAttribute="trailing" secondItem="hQf-fX-yOw" secondAttribute="trailingMargin" id="s8V-E2-MlU"/>
+                            <constraint firstItem="Xso-YH-b4h" firstAttribute="leading" secondItem="Rze-Tg-ldM" secondAttribute="leading" id="0ME-9Q-ORc"/>
+                            <constraint firstItem="Xso-YH-b4h" firstAttribute="top" secondItem="Rze-Tg-ldM" secondAttribute="top" id="5rQ-rN-0Oz"/>
+                            <constraint firstItem="Xso-YH-b4h" firstAttribute="trailing" secondItem="Rze-Tg-ldM" secondAttribute="trailing" id="Bot-hN-4DQ"/>
+                            <constraint firstAttribute="bottom" secondItem="Xso-YH-b4h" secondAttribute="bottom" id="uTq-h9-ajR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Rze-Tg-ldM"/>
                     </view>
@@ -274,10 +270,10 @@
             </objects>
             <point key="canvasLocation" x="1721.7391304347827" y="846.42857142857144"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="QPc-EG-Ljb">
             <objects>
-                <viewController id="pgC-cg-quw" sceneMemberID="viewController">
+                <viewController id="pgC-cg-quw" customClass="LoginViewController" customModule="Class02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8x6-Yf-yuN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -324,10 +320,10 @@
             </objects>
             <point key="canvasLocation" x="943" y="848"/>
         </scene>
-        <!--View Controller-->
+        <!--Master View Controller-->
         <scene sceneID="IGU-lK-kB2">
             <objects>
-                <viewController id="uyI-m7-YAU" sceneMemberID="viewController">
+                <viewController id="uyI-m7-YAU" customClass="MasterViewController" customModule="Class02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4l0-Uv-UHf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
